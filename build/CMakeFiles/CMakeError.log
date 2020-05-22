@@ -1,0 +1,523 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5133/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5133.dir/build.make CMakeFiles/cmTC_c5133.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5133.dir/src.c.o
+/usr/bin/clang-5.0   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c5133.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c5133
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5133.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_c5133.dir/src.c.o  -o cmTC_c5133 
+CMakeFiles/cmTC_c5133.dir/src.c.o: In function `main':
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c:(.text+0x35): undefined reference to `pthread_create'
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c:(.text+0x41): undefined reference to `pthread_detach'
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c:(.text+0x4d): undefined reference to `pthread_cancel'
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c:(.text+0x5f): undefined reference to `pthread_join'
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c:(.text+0x76): undefined reference to `pthread_atfork'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_c5133.dir/build.make:106: recipe for target 'cmTC_c5133' failed
+make[1]: *** [cmTC_c5133] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_c5133/fast' failed
+make: *** [cmTC_c5133/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_ARMV8_CRC32 failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d671/fast && /usr/bin/make  -f CMakeFiles/cmTC_8d671.dir/build.make CMakeFiles/cmTC_8d671.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8d671.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_ARMV8_CRC32 -fPIE   -march=armv8-a+crc -std=gnu++17 -o CMakeFiles/cmTC_8d671.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+error: unknown target CPU 'armv8-a+crc'
+CMakeFiles/cmTC_8d671.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_8d671.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8d671.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_8d671/fast' failed
+make: *** [cmTC_8d671/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_ARMV8_CRYPTO failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0793b/fast && /usr/bin/make  -f CMakeFiles/cmTC_0793b.dir/build.make CMakeFiles/cmTC_0793b.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0793b.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_ARMV8_CRYPTO -fPIE   -march=armv8-a+crypto -std=gnu++17 -o CMakeFiles/cmTC_0793b.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+error: unknown target CPU 'armv8-a+crypto'
+CMakeFiles/cmTC_0793b.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_0793b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0793b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_0793b/fast' failed
+make: *** [cmTC_0793b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FMT_HAS_VARIANT failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49b1b/fast && /usr/bin/make  -f CMakeFiles/cmTC_49b1b.dir/build.make CMakeFiles/cmTC_49b1b.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49b1b.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DFMT_HAS_VARIANT -std=c++1z   -std=gnu++17 -o CMakeFiles/cmTC_49b1b.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx:2:12: fatal error: 'variant' file not found
+  #include <variant>
+           ^~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_49b1b.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_49b1b.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_49b1b.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_49b1b/fast' failed
+make: *** [cmTC_49b1b/fast] Error 2
+
+
+Source file was:
+
+  #include <variant>
+  int main() {}
+Determining if the strtod_l exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6eec/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6eec.dir/build.make CMakeFiles/cmTC_c6eec.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6eec.dir/CheckSymbolExists.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_c6eec.dir/CheckSymbolExists.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'strtod_l'
+  return ((int*)(&strtod_l))[argc];
+                  ^
+1 error generated.
+CMakeFiles/cmTC_c6eec.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_c6eec.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c6eec.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_c6eec/fast' failed
+make: *** [cmTC_c6eec/fast] Error 2
+
+
+File /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod_l
+  return ((int*)(&strtod_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files AudioUnit/AudioUnit.h exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfacf/fast && /usr/bin/make  -f CMakeFiles/cmTC_dfacf.dir/build.make CMakeFiles/cmTC_dfacf.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfacf.dir/USE_AUDIOUNIT.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_dfacf.dir/USE_AUDIOUNIT.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_AUDIOUNIT.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_AUDIOUNIT.c:2:10: fatal error: 'AudioUnit/AudioUnit.h' file not found
+#include <AudioUnit/AudioUnit.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_dfacf.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_dfacf.dir/USE_AUDIOUNIT.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_dfacf.dir/USE_AUDIOUNIT.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_dfacf/fast' failed
+make: *** [cmTC_dfacf/fast] Error 2
+
+
+Source:
+/* */
+#include <AudioUnit/AudioUnit.h>
+
+
+int main(void){return 0;}
+
+Determining if files jack/jack.h exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b56e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_b56e5.dir/build.make CMakeFiles/cmTC_b56e5.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b56e5.dir/USE_JACK.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_b56e5.dir/USE_JACK.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_JACK.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_JACK.c:2:10: fatal error: 'jack/jack.h' file not found
+#include <jack/jack.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_b56e5.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_b56e5.dir/USE_JACK.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b56e5.dir/USE_JACK.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_b56e5/fast' failed
+make: *** [cmTC_b56e5/fast] Error 2
+
+
+Source:
+/* */
+#include <jack/jack.h>
+
+
+int main(void){return 0;}
+
+Determining if files audioclient.h exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35031/fast && /usr/bin/make  -f CMakeFiles/cmTC_35031.dir/build.make CMakeFiles/cmTC_35031.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35031.dir/USE_WASAPI.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_35031.dir/USE_WASAPI.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_WASAPI.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_WASAPI.c:2:10: fatal error: 'audioclient.h' file not found
+#include <audioclient.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_35031.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_35031.dir/USE_WASAPI.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_35031.dir/USE_WASAPI.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_35031/fast' failed
+make: *** [cmTC_35031/fast] Error 2
+
+
+Source:
+/* */
+#include <audioclient.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;mmsystem.h exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51ff3/fast && /usr/bin/make  -f CMakeFiles/cmTC_51ff3.dir/build.make CMakeFiles/cmTC_51ff3.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51ff3.dir/USE_WINMM.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_51ff3.dir/USE_WINMM.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_WINMM.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_WINMM.c:2:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_51ff3.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_51ff3.dir/USE_WINMM.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_51ff3.dir/USE_WINMM.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_51ff3/fast' failed
+make: *** [cmTC_51ff3/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <mmsystem.h>
+
+
+int main(void){return 0;}
+
+Determining if files SLES/OpenSLES.h exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28fc7/fast && /usr/bin/make  -f CMakeFiles/cmTC_28fc7.dir/build.make CMakeFiles/cmTC_28fc7.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28fc7.dir/USE_OPENSL.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_28fc7.dir/USE_OPENSL.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_OPENSL.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_OPENSL.c:2:10: fatal error: 'SLES/OpenSLES.h' file not found
+#include <SLES/OpenSLES.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_28fc7.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_28fc7.dir/USE_OPENSL.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_28fc7.dir/USE_OPENSL.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_28fc7/fast' failed
+make: *** [cmTC_28fc7/fast] Error 2
+
+
+Source:
+/* */
+#include <SLES/OpenSLES.h>
+
+
+int main(void){return 0;}
+
+Determining if files android/log.h exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_78d35/fast && /usr/bin/make  -f CMakeFiles/cmTC_78d35.dir/build.make CMakeFiles/cmTC_78d35.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78d35.dir/USE_AUDIOTRACK.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_78d35.dir/USE_AUDIOTRACK.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_AUDIOTRACK.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_AUDIOTRACK.c:2:10: fatal error: 'android/log.h' file not found
+#include <android/log.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_78d35.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_78d35.dir/USE_AUDIOTRACK.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_78d35.dir/USE_AUDIOTRACK.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_78d35/fast' failed
+make: *** [cmTC_78d35/fast] Error 2
+
+
+Source:
+/* */
+#include <android/log.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/audioio.h exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f1ee/fast && /usr/bin/make  -f CMakeFiles/cmTC_5f1ee.dir/build.make CMakeFiles/cmTC_5f1ee.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f1ee.dir/USE_SUN.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_5f1ee.dir/USE_SUN.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_SUN.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_SUN.c:2:10: fatal error: 'sys/audioio.h' file not found
+#include <sys/audioio.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+CMakeFiles/cmTC_5f1ee.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_5f1ee.dir/USE_SUN.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5f1ee.dir/USE_SUN.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_5f1ee/fast' failed
+make: *** [cmTC_5f1ee/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/audioio.h>
+
+
+int main(void){return 0;}
+
+Determining if files kai.h exist failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2abe7/fast && /usr/bin/make  -f CMakeFiles/cmTC_2abe7.dir/build.make CMakeFiles/cmTC_2abe7.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2abe7.dir/USE_KAI.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_2abe7.dir/USE_KAI.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_KAI.c
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_KAI.c:2:10: fatal error: 'kai.h' file not found
+#include <kai.h>
+         ^~~~~~~
+1 error generated.
+CMakeFiles/cmTC_2abe7.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_2abe7.dir/USE_KAI.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2abe7.dir/USE_KAI.c.o] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_2abe7/fast' failed
+make: *** [cmTC_2abe7/fast] Error 2
+
+
+Source:
+/* */
+#include <kai.h>
+
+
+int main(void){return 0;}
+
+Determining if the function reallocarray exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58935/fast && /usr/bin/make  -f CMakeFiles/cmTC_58935.dir/build.make CMakeFiles/cmTC_58935.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58935.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=reallocarray -fPIE   -o CMakeFiles/cmTC_58935.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_58935
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58935.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=reallocarray    -rdynamic CMakeFiles/cmTC_58935.dir/CheckFunctionExists.c.o  -o cmTC_58935 
+CMakeFiles/cmTC_58935.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `reallocarray'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_58935.dir/build.make:106: recipe for target 'cmTC_58935' failed
+make[1]: *** [cmTC_58935] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_58935/fast' failed
+make: *** [cmTC_58935/fast] Error 2
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a5c1d/fast && /usr/bin/make  -f CMakeFiles/cmTC_a5c1d.dir/build.make CMakeFiles/cmTC_a5c1d.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5c1d.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=strlcat -fPIE   -o CMakeFiles/cmTC_a5c1d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a5c1d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5c1d.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=strlcat    -rdynamic CMakeFiles/cmTC_a5c1d.dir/CheckFunctionExists.c.o  -o cmTC_a5c1d 
+CMakeFiles/cmTC_a5c1d.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `strlcat'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_a5c1d.dir/build.make:106: recipe for target 'cmTC_a5c1d' failed
+make[1]: *** [cmTC_a5c1d] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_a5c1d/fast' failed
+make: *** [cmTC_a5c1d/fast] Error 2
+
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3acf/fast && /usr/bin/make  -f CMakeFiles/cmTC_f3acf.dir/build.make CMakeFiles/cmTC_f3acf.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3acf.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=strlcpy -fPIE   -o CMakeFiles/cmTC_f3acf.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3acf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3acf.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=strlcpy    -rdynamic CMakeFiles/cmTC_f3acf.dir/CheckFunctionExists.c.o  -o cmTC_f3acf 
+CMakeFiles/cmTC_f3acf.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `strlcpy'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_f3acf.dir/build.make:106: recipe for target 'cmTC_f3acf' failed
+make[1]: *** [cmTC_f3acf] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_f3acf/fast' failed
+make: *** [cmTC_f3acf/fast] Error 2
+
+
+
+Determining if the function arc4random_buf exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e0b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_7e0b4.dir/build.make CMakeFiles/cmTC_7e0b4.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e0b4.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=arc4random_buf -fPIE   -o CMakeFiles/cmTC_7e0b4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e0b4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e0b4.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=arc4random_buf    -rdynamic CMakeFiles/cmTC_7e0b4.dir/CheckFunctionExists.c.o  -o cmTC_7e0b4 
+CMakeFiles/cmTC_7e0b4.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `arc4random_buf'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_7e0b4.dir/build.make:106: recipe for target 'cmTC_7e0b4' failed
+make[1]: *** [cmTC_7e0b4] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_7e0b4/fast' failed
+make: *** [cmTC_7e0b4/fast] Error 2
+
+
+
+Determining if the function arc4random_uniform exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac052/fast && /usr/bin/make  -f CMakeFiles/cmTC_ac052.dir/build.make CMakeFiles/cmTC_ac052.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac052.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=arc4random_uniform -fPIE   -o CMakeFiles/cmTC_ac052.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac052
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac052.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=arc4random_uniform    -rdynamic CMakeFiles/cmTC_ac052.dir/CheckFunctionExists.c.o  -o cmTC_ac052 
+CMakeFiles/cmTC_ac052.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `arc4random_uniform'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_ac052.dir/build.make:106: recipe for target 'cmTC_ac052' failed
+make[1]: *** [cmTC_ac052] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_ac052/fast' failed
+make: *** [cmTC_ac052/fast] Error 2
+
+
+
+Determining if the function explicit_bzero exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b646e/fast && /usr/bin/make  -f CMakeFiles/cmTC_b646e.dir/build.make CMakeFiles/cmTC_b646e.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b646e.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=explicit_bzero -fPIE   -o CMakeFiles/cmTC_b646e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b646e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b646e.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=explicit_bzero    -rdynamic CMakeFiles/cmTC_b646e.dir/CheckFunctionExists.c.o  -o cmTC_b646e 
+CMakeFiles/cmTC_b646e.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `explicit_bzero'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_b646e.dir/build.make:106: recipe for target 'cmTC_b646e' failed
+make[1]: *** [cmTC_b646e] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_b646e/fast' failed
+make: *** [cmTC_b646e/fast] Error 2
+
+
+
+Determining if the function getentropy exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_124f7/fast && /usr/bin/make  -f CMakeFiles/cmTC_124f7.dir/build.make CMakeFiles/cmTC_124f7.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_124f7.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=getentropy -fPIE   -o CMakeFiles/cmTC_124f7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_124f7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_124f7.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=getentropy    -rdynamic CMakeFiles/cmTC_124f7.dir/CheckFunctionExists.c.o  -o cmTC_124f7 
+CMakeFiles/cmTC_124f7.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `getentropy'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_124f7.dir/build.make:106: recipe for target 'cmTC_124f7' failed
+make[1]: *** [cmTC_124f7] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_124f7/fast' failed
+make: *** [cmTC_124f7/fast] Error 2
+
+
+
+Determining if the function timingsafe_bcmp exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f67d5/fast && /usr/bin/make  -f CMakeFiles/cmTC_f67d5.dir/build.make CMakeFiles/cmTC_f67d5.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f67d5.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=timingsafe_bcmp -fPIE   -o CMakeFiles/cmTC_f67d5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f67d5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f67d5.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=timingsafe_bcmp    -rdynamic CMakeFiles/cmTC_f67d5.dir/CheckFunctionExists.c.o  -o cmTC_f67d5 
+CMakeFiles/cmTC_f67d5.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `timingsafe_bcmp'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_f67d5.dir/build.make:106: recipe for target 'cmTC_f67d5' failed
+make[1]: *** [cmTC_f67d5] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_f67d5/fast' failed
+make: *** [cmTC_f67d5/fast] Error 2
+
+
+
+Determining if the function timingsafe_memcmp exists failed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_edb0e/fast && /usr/bin/make  -f CMakeFiles/cmTC_edb0e.dir/build.make CMakeFiles/cmTC_edb0e.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edb0e.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=timingsafe_memcmp -fPIE   -o CMakeFiles/cmTC_edb0e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_edb0e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edb0e.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=timingsafe_memcmp    -rdynamic CMakeFiles/cmTC_edb0e.dir/CheckFunctionExists.c.o  -o cmTC_edb0e 
+CMakeFiles/cmTC_edb0e.dir/CheckFunctionExists.c.o: In function `main':
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:(.text+0x17): undefined reference to `timingsafe_memcmp'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_edb0e.dir/build.make:106: recipe for target 'cmTC_edb0e' failed
+make[1]: *** [cmTC_edb0e] Error 1
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_edb0e/fast' failed
+make: *** [cmTC_edb0e/fast] Error 2
+
+
+

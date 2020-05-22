@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0   -Wall -Wextra -Wno-unused-parameter -O3 -DNDEBUG  -rdynamic CMakeFiles/cubeb-test.dir/tools/cubeb-test.cpp.o  -o ../../bin/cubeb-test  libcubeb.a -lpthread -ldl -lpthread -ldl 

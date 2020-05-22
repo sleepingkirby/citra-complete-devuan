@@ -1,0 +1,33 @@
+{
+	"BUILD_DIR" : "/home/sleepingkirby/dev/citra/build/src/citra_qt/citra-qt_autogen",
+	"CMAKE_BINARY_DIR" : "/home/sleepingkirby/dev/citra/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/sleepingkirby/dev/citra/build/src/citra_qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sleepingkirby/dev/citra/src/citra_qt",
+	"CMAKE_SOURCE_DIR" : "/home/sleepingkirby/dev/citra",
+	"INCLUDE_DIR" : "/home/sleepingkirby/dev/citra/build/src/citra_qt/citra-qt_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/index.theme",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/256x256/plus_folder.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/16x16/disconnected.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/16x16/connected_notification.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/16x16/connected.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/16x16/lock.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/48x48/sd_card.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/48x48/bad_folder.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/48x48/plus.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/48x48/chip.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/icons/48x48/folder.png",
+		"/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/style.qss"
+	],
+	"LOCK_FILE" : "/home/sleepingkirby/dev/citra/build/src/citra_qt/CMakeFiles/citra-qt_autogen.dir/AutoRcc_style_JJST62K4FD_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "style_JJST62K4FD" ],
+	"OUTPUT_CHECKSUM" : "JJST62K4FD",
+	"OUTPUT_NAME" : "qrc_style.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/x86_64-linux-gnu/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/sleepingkirby/dev/citra/build/src/citra_qt/CMakeFiles/citra-qt_autogen.dir/AutoRcc_style_JJST62K4FD_Used.txt",
+	"SOURCE" : "/home/sleepingkirby/dev/citra/dist/qt_themes/colorful/style.qrc",
+	"VERBOSITY" : 0
+}

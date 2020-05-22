@@ -1,0 +1,2 @@
+/usr/bin/ar qcTP libnetwork.a  CMakeFiles/network.dir/network.cpp.o CMakeFiles/network.dir/packet.cpp.o CMakeFiles/network.dir/room.cpp.o CMakeFiles/network.dir/room_member.cpp.o CMakeFiles/network.dir/verify_user.cpp.o
+/usr/bin/ranlib libnetwork.a

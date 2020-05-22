@@ -1,0 +1,1454 @@
+The system is: Linux - 4.9.0-11-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang-5.0 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/sleepingkirby/dev/citra/build/CMakeFiles/3.17.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++-5.0 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/sleepingkirby/dev/citra/build/CMakeFiles/3.17.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d9f9/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d9f9.dir/build.make CMakeFiles/cmTC_9d9f9.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d9f9.dir/testCCompiler.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_9d9f9.dir/testCCompiler.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9d9f9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d9f9.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_9d9f9.dir/testCCompiler.c.o  -o cmTC_9d9f9 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df17b/fast && /usr/bin/make  -f CMakeFiles/cmTC_df17b.dir/build.make CMakeFiles/cmTC_df17b.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang-5.0   -v -o CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+clang version 5.0.1-2~bpo9+1 (tags/RELEASE_501/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/lib/llvm-5.0/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-5.0/lib/clang/5.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/lib/llvm-5.0/lib/clang/5.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking C executable cmTC_df17b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df17b.dir/link.txt --verbose=1
+/usr/bin/clang-5.0     -v CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o  -o cmTC_df17b 
+clang version 5.0.1-2~bpo9+1 (tags/RELEASE_501/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_df17b /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/usr/lib/llvm-5.0/lib/clang/5.0.1/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/llvm-5.0/lib/clang/5.0.1/include] ==> [/usr/lib/llvm-5.0/lib/clang/5.0.1/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/usr/lib/llvm-5.0/lib/clang/5.0.1/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_df17b/fast && /usr/bin/make  -f CMakeFiles/cmTC_df17b.dir/build.make CMakeFiles/cmTC_df17b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang-5.0   -v -o CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 5.0.1-2~bpo9+1 (tags/RELEASE_501/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/usr/lib/llvm-5.0/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-5.0/lib/clang/5.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-pc-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/llvm-5.0/lib/clang/5.0.1/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_df17b]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df17b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang-5.0     -v CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o  -o cmTC_df17b ]
+  ignore line: [clang version 5.0.1-2~bpo9+1 (tags/RELEASE_501/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_df17b /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_df17b] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..]
+    arg [-L/usr/lib/llvm-5.0/bin/../lib] ==> dir [/usr/lib/llvm-5.0/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_df17b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/6.3.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-5.0/bin/../lib] ==> [/usr/lib/llvm-5.0/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6.3.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-5.0/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68c06/fast && /usr/bin/make  -f CMakeFiles/cmTC_68c06.dir/build.make CMakeFiles/cmTC_68c06.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68c06.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++-5.0     -o CMakeFiles/cmTC_68c06.dir/testCXXCompiler.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_68c06
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68c06.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0       CMakeFiles/cmTC_68c06.dir/testCXXCompiler.cxx.o  -o cmTC_68c06 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b50f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1b50f.dir/build.make CMakeFiles/cmTC_1b50f.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++-5.0    -v -o CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+clang version 5.0.1-2~bpo9+1 (tags/RELEASE_501/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/lib/llvm-5.0/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-5.0/lib/clang/5.0.1 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward -internal-isystem /usr/include/clang/5.0.1/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"
+ignoring duplicate directory "/usr/include/clang/5.0.1/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward
+ /usr/include/clang/5.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_1b50f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b50f.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0      -v CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1b50f 
+clang version 5.0.1-2~bpo9+1 (tags/RELEASE_501/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6.3.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1b50f /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0]
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0]
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward]
+    add: [/usr/include/clang/5.0.1/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0] ==> [/usr/include/c++/6.3.0]
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0] ==> [/usr/include/x86_64-linux-gnu/c++/6.3.0]
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward] ==> [/usr/include/c++/6.3.0/backward]
+  collapse include dir [/usr/include/clang/5.0.1/include] ==> [/usr/include/clang/5.0.1/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/6.3.0;/usr/include/x86_64-linux-gnu/c++/6.3.0;/usr/include/c++/6.3.0/backward;/usr/include/clang/5.0.1/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1b50f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1b50f.dir/build.make CMakeFiles/cmTC_1b50f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++-5.0    -v -o CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 5.0.1-2~bpo9+1 (tags/RELEASE_501/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/usr/lib/llvm-5.0/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -v -dwarf-column-info -debugger-tuning=gdb -coverage-notes-file /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-5.0/lib/clang/5.0.1 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward -internal-isystem /usr/include/clang/5.0.1/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-5.0/lib/clang/5.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 5.0.1 based upon LLVM 5.0.1 default target x86_64-pc-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0"]
+  ignore line: [ignoring duplicate directory "/usr/include/clang/5.0.1/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/x86_64-linux-gnu/c++/6.3.0]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward]
+  ignore line: [ /usr/include/clang/5.0.1/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_1b50f]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b50f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++-5.0      -v CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1b50f ]
+  ignore line: [clang version 5.0.1-2~bpo9+1 (tags/RELEASE_501/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/6.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1b50f /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../.. -L/usr/lib/llvm-5.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1b50f] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..]
+    arg [-L/usr/lib/llvm-5.0/bin/../lib] ==> dir [/usr/lib/llvm-5.0/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_1b50f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/6.3.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-5.0/bin/../lib] ==> [/usr/lib/llvm-5.0/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6.3.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-5.0/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the __x86_64__ exist passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b4a8c/fast && /usr/bin/make  -f CMakeFiles/cmTC_b4a8c.dir/build.make CMakeFiles/cmTC_b4a8c.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4a8c.dir/CheckSymbolExists.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_b4a8c.dir/CheckSymbolExists.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b4a8c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4a8c.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_b4a8c.dir/CheckSymbolExists.c.o  -o cmTC_b4a8c 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+File /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __x86_64__
+  return ((int*)(&__x86_64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b264/fast && /usr/bin/make  -f CMakeFiles/cmTC_7b264.dir/build.make CMakeFiles/cmTC_7b264.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b264.dir/CheckIncludeFile.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_7b264.dir/CheckIncludeFile.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b264
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b264.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_7b264.dir/CheckIncludeFile.c.o  -o cmTC_7b264 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a0fe/fast && /usr/bin/make  -f CMakeFiles/cmTC_8a0fe.dir/build.make CMakeFiles/cmTC_8a0fe.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a0fe.dir/CheckIncludeFile.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_8a0fe.dir/CheckIncludeFile.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8a0fe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a0fe.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_8a0fe.dir/CheckIncludeFile.c.o  -o cmTC_8a0fe 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4da5e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4da5e.dir/build.make CMakeFiles/cmTC_4da5e.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4da5e.dir/CheckIncludeFile.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_4da5e.dir/CheckIncludeFile.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4da5e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4da5e.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_4da5e.dir/CheckIncludeFile.c.o  -o cmTC_4da5e 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fdb61/fast && /usr/bin/make  -f CMakeFiles/cmTC_fdb61.dir/build.make CMakeFiles/cmTC_fdb61.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdb61.dir/CheckIncludeFile.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_fdb61.dir/CheckIncludeFile.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fdb61
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdb61.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_fdb61.dir/CheckIncludeFile.c.o  -o cmTC_fdb61 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9417/fast && /usr/bin/make  -f CMakeFiles/cmTC_d9417.dir/build.make CMakeFiles/cmTC_d9417.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9417.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_d9417.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_d9417
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9417.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_d9417.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_d9417 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d90bc/fast && /usr/bin/make  -f CMakeFiles/cmTC_d90bc.dir/build.make CMakeFiles/cmTC_d90bc.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d90bc.dir/TestEndianess.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_d90bc.dir/TestEndianess.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_d90bc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d90bc.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_d90bc.dir/TestEndianess.c.o  -o cmTC_d90bc 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_MSSE2 succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9cc7d/fast && /usr/bin/make  -f CMakeFiles/cmTC_9cc7d.dir/build.make CMakeFiles/cmTC_9cc7d.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9cc7d.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_MSSE2 -fPIE   -msse2 -std=gnu++17 -o CMakeFiles/cmTC_9cc7d.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9cc7d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cc7d.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DCRYPTOPP_HAS_MSSE2    CMakeFiles/cmTC_9cc7d.dir/src.cxx.o  -o cmTC_9cc7d 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_MSSSE3 succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83da1/fast && /usr/bin/make  -f CMakeFiles/cmTC_83da1.dir/build.make CMakeFiles/cmTC_83da1.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83da1.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_MSSSE3 -fPIE   -mssse3 -std=gnu++17 -o CMakeFiles/cmTC_83da1.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_83da1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83da1.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DCRYPTOPP_HAS_MSSSE3    CMakeFiles/cmTC_83da1.dir/src.cxx.o  -o cmTC_83da1 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_MSSE41 succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_66fa6/fast && /usr/bin/make  -f CMakeFiles/cmTC_66fa6.dir/build.make CMakeFiles/cmTC_66fa6.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66fa6.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_MSSE41 -fPIE   -msse4.1 -std=gnu++17 -o CMakeFiles/cmTC_66fa6.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_66fa6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66fa6.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DCRYPTOPP_HAS_MSSE41    CMakeFiles/cmTC_66fa6.dir/src.cxx.o  -o cmTC_66fa6 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_MSSE42 succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d34b/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d34b.dir/build.make CMakeFiles/cmTC_9d34b.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d34b.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_MSSE42 -fPIE   -msse4.2 -std=gnu++17 -o CMakeFiles/cmTC_9d34b.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d34b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d34b.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DCRYPTOPP_HAS_MSSE42    CMakeFiles/cmTC_9d34b.dir/src.cxx.o  -o cmTC_9d34b 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_MAES succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d61f3/fast && /usr/bin/make  -f CMakeFiles/cmTC_d61f3.dir/build.make CMakeFiles/cmTC_d61f3.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d61f3.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_MAES -fPIE   -maes -std=gnu++17 -o CMakeFiles/cmTC_d61f3.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d61f3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d61f3.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DCRYPTOPP_HAS_MAES    CMakeFiles/cmTC_d61f3.dir/src.cxx.o  -o cmTC_d61f3 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_PCLMUL succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c15c/fast && /usr/bin/make  -f CMakeFiles/cmTC_2c15c.dir/build.make CMakeFiles/cmTC_2c15c.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c15c.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_PCLMUL -fPIE   -mpclmul -std=gnu++17 -o CMakeFiles/cmTC_2c15c.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2c15c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c15c.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DCRYPTOPP_HAS_PCLMUL    CMakeFiles/cmTC_2c15c.dir/src.cxx.o  -o cmTC_2c15c 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CRYPTOPP_HAS_MSHA succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bd9c2/fast && /usr/bin/make  -f CMakeFiles/cmTC_bd9c2.dir/build.make CMakeFiles/cmTC_bd9c2.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd9c2.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCRYPTOPP_HAS_MSHA -fPIE   -msha -std=gnu++17 -o CMakeFiles/cmTC_bd9c2.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bd9c2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd9c2.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DCRYPTOPP_HAS_MSHA    CMakeFiles/cmTC_bd9c2.dir/src.cxx.o  -o cmTC_bd9c2 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_17_flag succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2411/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2411.dir/build.make CMakeFiles/cmTC_e2411.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2411.dir/src.cxx.o
+/usr/bin/clang++-5.0    -Dhas_std_17_flag   -std=c++17 -std=gnu++17 -o CMakeFiles/cmTC_e2411.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e2411
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2411.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -Dhas_std_17_flag    CMakeFiles/cmTC_e2411.dir/src.cxx.o  -o cmTC_e2411 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_1z_flag succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc9b1/fast && /usr/bin/make  -f CMakeFiles/cmTC_cc9b1.dir/build.make CMakeFiles/cmTC_cc9b1.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc9b1.dir/src.cxx.o
+/usr/bin/clang++-5.0    -Dhas_std_1z_flag   -std=c++1z -std=gnu++17 -o CMakeFiles/cmTC_cc9b1.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc9b1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc9b1.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -Dhas_std_1z_flag    CMakeFiles/cmTC_cc9b1.dir/src.cxx.o  -o cmTC_cc9b1 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_TEMPLATES succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c44eb/fast && /usr/bin/make  -f CMakeFiles/cmTC_c44eb.dir/build.make CMakeFiles/cmTC_c44eb.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c44eb.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DSUPPORTS_VARIADIC_TEMPLATES -std=c++17   -std=gnu++17 -o CMakeFiles/cmTC_c44eb.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c44eb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c44eb.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DSUPPORTS_VARIADIC_TEMPLATES -std=c++17    CMakeFiles/cmTC_c44eb.dir/src.cxx.o  -o cmTC_c44eb 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+  template <class T, class ...Types>
+  struct S { typedef typename S<Types...>::type type; };
+  int main() {}
+Performing C++ SOURCE FILE Test SUPPORTS_USER_DEFINED_LITERALS succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b020/fast && /usr/bin/make  -f CMakeFiles/cmTC_0b020.dir/build.make CMakeFiles/cmTC_0b020.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0b020.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DSUPPORTS_USER_DEFINED_LITERALS -std=c++17   -std=gnu++17 -o CMakeFiles/cmTC_0b020.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0b020
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b020.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DSUPPORTS_USER_DEFINED_LITERALS -std=c++17    CMakeFiles/cmTC_0b020.dir/src.cxx.o  -o cmTC_0b020 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+  void operator"" _udl(long double);
+  int main() {}
+Performing C++ SOURCE FILE Test HAS_NULLPTR_WARNING succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_11967/fast && /usr/bin/make  -f CMakeFiles/cmTC_11967.dir/build.make CMakeFiles/cmTC_11967.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11967.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DHAS_NULLPTR_WARNING   -Wzero-as-null-pointer-constant -std=gnu++17 -o CMakeFiles/cmTC_11967.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11967
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11967.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DHAS_NULLPTR_WARNING    CMakeFiles/cmTC_11967.dir/src.cxx.o  -o cmTC_11967 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the open exist passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0bd6e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0bd6e.dir/build.make CMakeFiles/cmTC_0bd6e.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bd6e.dir/CheckSymbolExists.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_0bd6e.dir/CheckSymbolExists.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0bd6e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bd6e.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_0bd6e.dir/CheckSymbolExists.c.o  -o cmTC_0bd6e 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+File /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test SOUNDTOUCH_HAS_MMMX succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2ce19/fast && /usr/bin/make  -f CMakeFiles/cmTC_2ce19.dir/build.make CMakeFiles/cmTC_2ce19.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ce19.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DSOUNDTOUCH_HAS_MMMX   -mmmx -std=gnu++17 -o CMakeFiles/cmTC_2ce19.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2ce19
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ce19.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DSOUNDTOUCH_HAS_MMMX    CMakeFiles/cmTC_2ce19.dir/src.cxx.o  -o cmTC_2ce19 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SOUNDTOUCH_HAS_MSSE succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9dd7/fast && /usr/bin/make  -f CMakeFiles/cmTC_d9dd7.dir/build.make CMakeFiles/cmTC_d9dd7.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9dd7.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DSOUNDTOUCH_HAS_MSSE   -msse -std=gnu++17 -o CMakeFiles/cmTC_d9dd7.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d9dd7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9dd7.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DSOUNDTOUCH_HAS_MSSE    CMakeFiles/cmTC_d9dd7.dir/src.cxx.o  -o cmTC_d9dd7 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_STD_CPLUSPLUS11 succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_971bb/fast && /usr/bin/make  -f CMakeFiles/cmTC_971bb.dir/build.make CMakeFiles/cmTC_971bb.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_971bb.dir/src.cxx.o
+/usr/bin/clang++-5.0    -DCXX_FLAG_STD_CPLUSPLUS11   -std=c++11 -std=gnu++17 -o CMakeFiles/cmTC_971bb.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_971bb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_971bb.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -DCXX_FLAG_STD_CPLUSPLUS11    CMakeFiles/cmTC_971bb.dir/src.cxx.o  -o cmTC_971bb 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_STD_C99 succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c9069/fast && /usr/bin/make  -f CMakeFiles/cmTC_c9069.dir/build.make CMakeFiles/cmTC_c9069.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9069.dir/src.c.o
+/usr/bin/clang-5.0   -DC_FLAG_STD_C99   -std=c99 -o CMakeFiles/cmTC_c9069.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c9069
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9069.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DC_FLAG_STD_C99    CMakeFiles/cmTC_c9069.dir/src.c.o  -o cmTC_c9069 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WALL succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e074/fast && /usr/bin/make  -f CMakeFiles/cmTC_3e074.dir/build.make CMakeFiles/cmTC_3e074.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e074.dir/src.c.o
+/usr/bin/clang-5.0   -std=c99 -DC_FLAG_WALL   -Wall -o CMakeFiles/cmTC_3e074.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3e074
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e074.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -std=c99 -DC_FLAG_WALL    CMakeFiles/cmTC_3e074.dir/src.c.o  -o cmTC_3e074 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_84cc5/fast && /usr/bin/make  -f CMakeFiles/cmTC_84cc5.dir/build.make CMakeFiles/cmTC_84cc5.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84cc5.dir/src.cxx.o
+/usr/bin/clang++-5.0    -std=c++11 -DCXX_FLAG_WALL   -Wall -std=gnu++17 -o CMakeFiles/cmTC_84cc5.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_84cc5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84cc5.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -std=c++11 -DCXX_FLAG_WALL    CMakeFiles/cmTC_84cc5.dir/src.cxx.o  -o cmTC_84cc5 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dd123/fast && /usr/bin/make  -f CMakeFiles/cmTC_dd123.dir/build.make CMakeFiles/cmTC_dd123.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd123.dir/src.c.o
+/usr/bin/clang-5.0   -std=c99 -Wall -DC_FLAG_WEXTRA   -Wextra -o CMakeFiles/cmTC_dd123.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dd123
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd123.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -std=c99 -Wall -DC_FLAG_WEXTRA    CMakeFiles/cmTC_dd123.dir/src.c.o  -o cmTC_dd123 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ad0e1/fast && /usr/bin/make  -f CMakeFiles/cmTC_ad0e1.dir/build.make CMakeFiles/cmTC_ad0e1.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad0e1.dir/src.cxx.o
+/usr/bin/clang++-5.0    -std=c++11 -Wall -DCXX_FLAG_WEXTRA   -Wextra -std=gnu++17 -o CMakeFiles/cmTC_ad0e1.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ad0e1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad0e1.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -std=c++11 -Wall -DCXX_FLAG_WEXTRA    CMakeFiles/cmTC_ad0e1.dir/src.cxx.o  -o cmTC_ad0e1 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WUNDEF succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8e06c/fast && /usr/bin/make  -f CMakeFiles/cmTC_8e06c.dir/build.make CMakeFiles/cmTC_8e06c.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e06c.dir/src.c.o
+/usr/bin/clang-5.0   -std=c99 -Wall -Wextra -DC_FLAG_WUNDEF   -Wundef -o CMakeFiles/cmTC_8e06c.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8e06c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e06c.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -std=c99 -Wall -Wextra -DC_FLAG_WUNDEF    CMakeFiles/cmTC_8e06c.dir/src.c.o  -o cmTC_8e06c 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WUNDEF succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d3e6/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d3e6.dir/build.make CMakeFiles/cmTC_9d3e6.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d3e6.dir/src.cxx.o
+/usr/bin/clang++-5.0    -std=c++11 -Wall -Wextra -DCXX_FLAG_WUNDEF   -Wundef -std=gnu++17 -o CMakeFiles/cmTC_9d3e6.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d3e6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d3e6.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -std=c++11 -Wall -Wextra -DCXX_FLAG_WUNDEF    CMakeFiles/cmTC_9d3e6.dir/src.cxx.o  -o cmTC_9d3e6 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5402f/fast && /usr/bin/make  -f CMakeFiles/cmTC_5402f.dir/build.make CMakeFiles/cmTC_5402f.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5402f.dir/src.c.o
+/usr/bin/clang-5.0   -std=c99 -Wall -Wextra -Wundef -DC_FLAG_WSHADOW   -Wshadow -o CMakeFiles/cmTC_5402f.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5402f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5402f.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -std=c99 -Wall -Wextra -Wundef -DC_FLAG_WSHADOW    CMakeFiles/cmTC_5402f.dir/src.c.o  -o cmTC_5402f 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd66b/fast && /usr/bin/make  -f CMakeFiles/cmTC_cd66b.dir/build.make CMakeFiles/cmTC_cd66b.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cd66b.dir/src.cxx.o
+/usr/bin/clang++-5.0    -std=c++11 -Wall -Wextra -Wundef -DCXX_FLAG_WSHADOW   -Wshadow -std=gnu++17 -o CMakeFiles/cmTC_cd66b.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cd66b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd66b.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -std=c++11 -Wall -Wextra -Wundef -DCXX_FLAG_WSHADOW    CMakeFiles/cmTC_cd66b.dir/src.cxx.o  -o cmTC_cd66b 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WCAST_ALIGN succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c19be/fast && /usr/bin/make  -f CMakeFiles/cmTC_c19be.dir/build.make CMakeFiles/cmTC_c19be.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c19be.dir/src.c.o
+/usr/bin/clang-5.0   -std=c99 -Wall -Wextra -Wundef -Wshadow -DC_FLAG_WCAST_ALIGN   -Wcast-align -o CMakeFiles/cmTC_c19be.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c19be
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c19be.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -std=c99 -Wall -Wextra -Wundef -Wshadow -DC_FLAG_WCAST_ALIGN    CMakeFiles/cmTC_c19be.dir/src.c.o  -o cmTC_c19be 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WCAST_ALIGN succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac244/fast && /usr/bin/make  -f CMakeFiles/cmTC_ac244.dir/build.make CMakeFiles/cmTC_ac244.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac244.dir/src.cxx.o
+/usr/bin/clang++-5.0    -std=c++11 -Wall -Wextra -Wundef -Wshadow -DCXX_FLAG_WCAST_ALIGN   -Wcast-align -std=gnu++17 -o CMakeFiles/cmTC_ac244.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ac244
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac244.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -std=c++11 -Wall -Wextra -Wundef -Wshadow -DCXX_FLAG_WCAST_ALIGN    CMakeFiles/cmTC_ac244.dir/src.cxx.o  -o cmTC_ac244 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WCAST_QUAL succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_570cf/fast && /usr/bin/make  -f CMakeFiles/cmTC_570cf.dir/build.make CMakeFiles/cmTC_570cf.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_570cf.dir/src.c.o
+/usr/bin/clang-5.0   -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align -DC_FLAG_WCAST_QUAL   -Wcast-qual -o CMakeFiles/cmTC_570cf.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_570cf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_570cf.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align -DC_FLAG_WCAST_QUAL    CMakeFiles/cmTC_570cf.dir/src.c.o  -o cmTC_570cf 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WCAST_QUAL succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dffa3/fast && /usr/bin/make  -f CMakeFiles/cmTC_dffa3.dir/build.make CMakeFiles/cmTC_dffa3.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dffa3.dir/src.cxx.o
+/usr/bin/clang++-5.0    -std=c++11 -Wall -Wextra -Wundef -Wshadow -Wcast-align -DCXX_FLAG_WCAST_QUAL   -Wcast-qual -std=gnu++17 -o CMakeFiles/cmTC_dffa3.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dffa3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dffa3.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -std=c++11 -Wall -Wextra -Wundef -Wshadow -Wcast-align -DCXX_FLAG_WCAST_QUAL    CMakeFiles/cmTC_dffa3.dir/src.cxx.o  -o cmTC_dffa3 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WSTRICT_PROTOTYPES succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_11a17/fast && /usr/bin/make  -f CMakeFiles/cmTC_11a17.dir/build.make CMakeFiles/cmTC_11a17.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11a17.dir/src.c.o
+/usr/bin/clang-5.0   -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -DC_FLAG_WSTRICT_PROTOTYPES   -Wstrict-prototypes -o CMakeFiles/cmTC_11a17.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_11a17
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11a17.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual -DC_FLAG_WSTRICT_PROTOTYPES    CMakeFiles/cmTC_11a17.dir/src.c.o  -o cmTC_11a17 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c736e/fast && /usr/bin/make  -f CMakeFiles/cmTC_c736e.dir/build.make CMakeFiles/cmTC_c736e.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c736e.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_c736e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c736e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c736e.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=fcntl    -rdynamic CMakeFiles/cmTC_c736e.dir/CheckFunctionExists.c.o  -o cmTC_c736e 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c704/fast && /usr/bin/make  -f CMakeFiles/cmTC_5c704.dir/build.make CMakeFiles/cmTC_5c704.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c704.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_5c704.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c704
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c704.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=poll    -rdynamic CMakeFiles/cmTC_5c704.dir/CheckFunctionExists.c.o  -o cmTC_5c704 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27ecc/fast && /usr/bin/make  -f CMakeFiles/cmTC_27ecc.dir/build.make CMakeFiles/cmTC_27ecc.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27ecc.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTC_27ecc.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_27ecc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27ecc.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=getaddrinfo    -rdynamic CMakeFiles/cmTC_27ecc.dir/CheckFunctionExists.c.o  -o cmTC_27ecc 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getnameinfo exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_762ff/fast && /usr/bin/make  -f CMakeFiles/cmTC_762ff.dir/build.make CMakeFiles/cmTC_762ff.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_762ff.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=getnameinfo   -o CMakeFiles/cmTC_762ff.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_762ff
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_762ff.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=getnameinfo    -rdynamic CMakeFiles/cmTC_762ff.dir/CheckFunctionExists.c.o  -o cmTC_762ff 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname_r exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7726/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7726.dir/build.make CMakeFiles/cmTC_d7726.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7726.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=gethostbyname_r   -o CMakeFiles/cmTC_d7726.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7726
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7726.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=gethostbyname_r    -rdynamic CMakeFiles/cmTC_d7726.dir/CheckFunctionExists.c.o  -o cmTC_d7726 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyaddr_r exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_94040/fast && /usr/bin/make  -f CMakeFiles/cmTC_94040.dir/build.make CMakeFiles/cmTC_94040.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94040.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r   -o CMakeFiles/cmTC_94040.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94040
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94040.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r    -rdynamic CMakeFiles/cmTC_94040.dir/CheckFunctionExists.c.o  -o cmTC_94040 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_17e9e/fast && /usr/bin/make  -f CMakeFiles/cmTC_17e9e.dir/build.make CMakeFiles/cmTC_17e9e.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17e9e.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=inet_pton   -o CMakeFiles/cmTC_17e9e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_17e9e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e9e.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=inet_pton    -rdynamic CMakeFiles/cmTC_17e9e.dir/CheckFunctionExists.c.o  -o cmTC_17e9e 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_ntop exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c341/fast && /usr/bin/make  -f CMakeFiles/cmTC_4c341.dir/build.make CMakeFiles/cmTC_4c341.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c341.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=inet_ntop   -o CMakeFiles/cmTC_4c341.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c341
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c341.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=inet_ntop    -rdynamic CMakeFiles/cmTC_4c341.dir/CheckFunctionExists.c.o  -o cmTC_4c341 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a949/fast && /usr/bin/make  -f CMakeFiles/cmTC_9a949.dir/build.make CMakeFiles/cmTC_9a949.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a949.dir/src.c.o
+/usr/bin/clang-5.0   -DHAS_MSGHDR_FLAGS   -o CMakeFiles/cmTC_9a949.dir/src.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9a949
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a949.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DHAS_MSGHDR_FLAGS    CMakeFiles/cmTC_9a949.dir/src.c.o  -o cmTC_9a949 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc201/fast && /usr/bin/make  -f CMakeFiles/cmTC_cc201.dir/build.make CMakeFiles/cmTC_cc201.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc201.dir/HAS_SOCKLEN_T.c.o
+/usr/bin/clang-5.0    -o CMakeFiles/cmTC_cc201.dir/HAS_SOCKLEN_T.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c
+Linking C executable cmTC_cc201
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc201.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_cc201.dir/HAS_SOCKLEN_T.c.o  -o cmTC_cc201 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d6af/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d6af.dir/build.make CMakeFiles/cmTC_9d6af.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d6af.dir/src.cxx.o
+/usr/bin/clang++-5.0    -Wall -Wextra -Wno-unused-parameter -DCOMPILER_HAS_HIDDEN_VISIBILITY   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/cmTC_9d6af.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d6af
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d6af.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -Wall -Wextra -Wno-unused-parameter -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_9d6af.dir/src.cxx.o  -o cmTC_9d6af 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_15236/fast && /usr/bin/make  -f CMakeFiles/cmTC_15236.dir/build.make CMakeFiles/cmTC_15236.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15236.dir/src.cxx.o
+/usr/bin/clang++-5.0    -Wall -Wextra -Wno-unused-parameter -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -std=gnu++11 -o CMakeFiles/cmTC_15236.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_15236
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15236.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -Wall -Wextra -Wno-unused-parameter -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_15236.dir/src.cxx.o  -o cmTC_15236 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fbcc0/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbcc0.dir/build.make CMakeFiles/cmTC_fbcc0.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fbcc0.dir/src.cxx.o
+/usr/bin/clang++-5.0    -Wall -Wextra -Wno-unused-parameter -DCOMPILER_HAS_DEPRECATED_ATTR   -std=gnu++11 -o CMakeFiles/cmTC_fbcc0.dir/src.cxx.o -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    int main() { return somefunc();}
+                        ^
+/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+               ^
+1 warning generated.
+Linking CXX executable cmTC_fbcc0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbcc0.dir/link.txt --verbose=1
+/usr/bin/clang++-5.0   -Wall -Wextra -Wno-unused-parameter -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTC_fbcc0.dir/src.cxx.o  -o cmTC_fbcc0 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Determining if files pulse/pulseaudio.h exist passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ead7/fast && /usr/bin/make  -f CMakeFiles/cmTC_8ead7.dir/build.make CMakeFiles/cmTC_8ead7.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ead7.dir/USE_PULSE.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_8ead7.dir/USE_PULSE.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_PULSE.c
+Linking C executable cmTC_8ead7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ead7.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -Wall -Wextra -Wno-unused-parameter     -rdynamic CMakeFiles/cmTC_8ead7.dir/USE_PULSE.c.o  -o cmTC_8ead7 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files alsa/asoundlib.h exist passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f009c/fast && /usr/bin/make  -f CMakeFiles/cmTC_f009c.dir/build.make CMakeFiles/cmTC_f009c.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f009c.dir/USE_ALSA.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_f009c.dir/USE_ALSA.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_ALSA.c
+Linking C executable cmTC_f009c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f009c.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -Wall -Wextra -Wno-unused-parameter     -rdynamic CMakeFiles/cmTC_f009c.dir/USE_ALSA.c.o  -o cmTC_f009c 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sndio.h exist passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e73c/fast && /usr/bin/make  -f CMakeFiles/cmTC_3e73c.dir/build.make CMakeFiles/cmTC_3e73c.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e73c.dir/USE_SNDIO.c.o
+/usr/bin/clang-5.0   -Wall -Wextra -Wno-unused-parameter    -o CMakeFiles/cmTC_3e73c.dir/USE_SNDIO.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/USE_SNDIO.c
+Linking C executable cmTC_3e73c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e73c.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -Wall -Wextra -Wno-unused-parameter     -rdynamic CMakeFiles/cmTC_3e73c.dir/USE_SNDIO.c.o  -o cmTC_3e73c 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function asprintf exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ec51/fast && /usr/bin/make  -f CMakeFiles/cmTC_8ec51.dir/build.make CMakeFiles/cmTC_8ec51.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ec51.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=asprintf -fPIE   -o CMakeFiles/cmTC_8ec51.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:17:25: warning: format string missing [-Wformat]
+  CHECK_FUNCTION_EXISTS();
+  ~~~~~~~~~~~~~~~~~~~~~ ^
+1 warning generated.
+Linking C executable cmTC_8ec51
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ec51.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=asprintf    -rdynamic CMakeFiles/cmTC_8ec51.dir/CheckFunctionExists.c.o  -o cmTC_8ec51 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a3c4/fast && /usr/bin/make  -f CMakeFiles/cmTC_2a3c4.dir/build.make CMakeFiles/cmTC_2a3c4.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a3c4.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=strcasecmp -fPIE   -o CMakeFiles/cmTC_2a3c4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_2a3c4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a3c4.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=strcasecmp    -rdynamic CMakeFiles/cmTC_2a3c4.dir/CheckFunctionExists.c.o  -o cmTC_2a3c4 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strndup exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4159b/fast && /usr/bin/make  -f CMakeFiles/cmTC_4159b.dir/build.make CMakeFiles/cmTC_4159b.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4159b.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=strndup -fPIE   -o CMakeFiles/cmTC_4159b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strndup' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strndup
+                              ^
+/usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'strndup' is a builtin with type 'char *(const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strndup
+                              ^
+1 warning generated.
+Linking C executable cmTC_4159b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4159b.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=strndup    -rdynamic CMakeFiles/cmTC_4159b.dir/CheckFunctionExists.c.o  -o cmTC_4159b 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strnlen exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_49215/fast && /usr/bin/make  -f CMakeFiles/cmTC_49215.dir/build.make CMakeFiles/cmTC_49215.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49215.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=strnlen -fPIE   -o CMakeFiles/cmTC_49215.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49215
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49215.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=strnlen    -rdynamic CMakeFiles/cmTC_49215.dir/CheckFunctionExists.c.o  -o cmTC_49215 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67b27/fast && /usr/bin/make  -f CMakeFiles/cmTC_67b27.dir/build.make CMakeFiles/cmTC_67b27.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67b27.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=strsep -fPIE   -o CMakeFiles/cmTC_67b27.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67b27
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67b27.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=strsep    -rdynamic CMakeFiles/cmTC_67b27.dir/CheckFunctionExists.c.o  -o cmTC_67b27 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function timegm exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8b03/fast && /usr/bin/make  -f CMakeFiles/cmTC_d8b03.dir/build.make CMakeFiles/cmTC_d8b03.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8b03.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=timegm -fPIE   -o CMakeFiles/cmTC_d8b03.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8b03
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8b03.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=timegm    -rdynamic CMakeFiles/cmTC_d8b03.dir/CheckFunctionExists.c.o  -o cmTC_d8b03 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getauxval exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31cb6/fast && /usr/bin/make  -f CMakeFiles/cmTC_31cb6.dir/build.make CMakeFiles/cmTC_31cb6.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31cb6.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=getauxval -fPIE   -o CMakeFiles/cmTC_31cb6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_31cb6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31cb6.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=getauxval    -rdynamic CMakeFiles/cmTC_31cb6.dir/CheckFunctionExists.c.o  -o cmTC_31cb6 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getpagesize exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95921/fast && /usr/bin/make  -f CMakeFiles/cmTC_95921.dir/build.make CMakeFiles/cmTC_95921.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95921.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=getpagesize -fPIE   -o CMakeFiles/cmTC_95921.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95921
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95921.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=getpagesize    -rdynamic CMakeFiles/cmTC_95921.dir/CheckFunctionExists.c.o  -o cmTC_95921 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function memmem exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_387ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_387ac.dir/build.make CMakeFiles/cmTC_387ac.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_387ac.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=memmem -fPIE   -o CMakeFiles/cmTC_387ac.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_387ac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_387ac.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=memmem    -rdynamic CMakeFiles/cmTC_387ac.dir/CheckFunctionExists.c.o  -o cmTC_387ac 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files err.h exist passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ff054/fast && /usr/bin/make  -f CMakeFiles/cmTC_ff054.dir/build.make CMakeFiles/cmTC_ff054.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff054.dir/HAVE_ERR_H.c.o
+/usr/bin/clang-5.0   -fPIE   -o CMakeFiles/cmTC_ff054.dir/HAVE_ERR_H.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckIncludeFiles/HAVE_ERR_H.c
+Linking C executable cmTC_ff054
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff054.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      -rdynamic CMakeFiles/cmTC_ff054.dir/HAVE_ERR_H.c.o  -o cmTC_ff054 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8fe14/fast && /usr/bin/make  -f CMakeFiles/cmTC_8fe14.dir/build.make CMakeFiles/cmTC_8fe14.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fe14.dir/CheckFunctionExists.c.o
+/usr/bin/clang-5.0   -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_8fe14.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8fe14
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fe14.dir/link.txt --verbose=1
+/usr/bin/clang-5.0  -DCHECK_FUNCTION_EXISTS=clock_gettime    -rdynamic CMakeFiles/cmTC_8fe14.dir/CheckFunctionExists.c.o  -o cmTC_8fe14 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43cd9/fast && /usr/bin/make  -f CMakeFiles/cmTC_43cd9.dir/build.make CMakeFiles/cmTC_43cd9.dir/build
+make[1]: Entering directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43cd9.dir/SIZEOF_TIME_T.c.o
+/usr/bin/clang-5.0   -fPIE   -o CMakeFiles/cmTC_43cd9.dir/SIZEOF_TIME_T.c.o   -c /home/sleepingkirby/dev/citra/build/CMakeFiles/CheckTypeSize/SIZEOF_TIME_T.c
+Linking C executable cmTC_43cd9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43cd9.dir/link.txt --verbose=1
+/usr/bin/clang-5.0      CMakeFiles/cmTC_43cd9.dir/SIZEOF_TIME_T.c.o  -o cmTC_43cd9 
+make[1]: Leaving directory '/home/sleepingkirby/dev/citra/build/CMakeFiles/CMakeTmp'
+
+
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qcTP libweb_service.a  CMakeFiles/web_service.dir/announce_room_json.cpp.o CMakeFiles/web_service.dir/telemetry_json.cpp.o CMakeFiles/web_service.dir/verify_login.cpp.o CMakeFiles/web_service.dir/verify_user_jwt.cpp.o CMakeFiles/web_service.dir/web_backend.cpp.o
+/usr/bin/ranlib libweb_service.a

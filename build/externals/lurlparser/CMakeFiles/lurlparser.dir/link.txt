@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblurlparser.a  CMakeFiles/lurlparser.dir/LUrlParser.cpp.o
+/usr/bin/ranlib liblurlparser.a
