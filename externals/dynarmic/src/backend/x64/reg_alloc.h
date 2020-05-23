@@ -8,7 +8,7 @@
 
 #include <array>
 #include <functional>
-#include <optional>
+#include <experimental/optional>
 #include <utility>
 #include <vector>
 
@@ -121,10 +121,10 @@ public:
     Xbyak::Xmm ScratchXmm(HostLoc desired_location);
 
     void HostCall(IR::Inst* result_def = nullptr,
-                  std::optional<Argument::copyable_reference> arg0 = {},
-                  std::optional<Argument::copyable_reference> arg1 = {},
-                  std::optional<Argument::copyable_reference> arg2 = {},
-                  std::optional<Argument::copyable_reference> arg3 = {});
+                  std::experimental::optional<Argument::copyable_reference> arg0 = {},
+                  std::experimental::optional<Argument::copyable_reference> arg1 = {},
+                  std::experimental::optional<Argument::copyable_reference> arg2 = {},
+                  std::experimental::optional<Argument::copyable_reference> arg3 = {});
 
     // TODO: Values in host flags
 
@@ -139,7 +139,7 @@ private:
     std::vector<HostLoc> xmm_order;
 
     HostLoc SelectARegister(const std::vector<HostLoc>& desired_locations) const;
-    std::optional<HostLoc> ValueLocation(const IR::Inst* value) const;
+    std::experimental::optional<HostLoc> ValueLocation(const IR::Inst* value) const;
 
     HostLoc UseImpl(IR::Value use_value, const std::vector<HostLoc>& desired_locations);
     HostLoc UseScratchImpl(IR::Value use_value, const std::vector<HostLoc>& desired_locations);

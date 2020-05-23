@@ -7,7 +7,7 @@
 #pragma once
 
 #include <algorithm>
-#include <optional>
+#include <experimental/optional>
 #include <vector>
 
 #include "common/common_types.h"
@@ -20,7 +20,7 @@ template <typename Visitor>
 using Thumb32Matcher = Decoder::Matcher<Visitor, u32>;
 
 template<typename V>
-std::optional<std::reference_wrapper<const Thumb32Matcher<V>>> DecodeThumb32(u32 instruction) {
+std::experimental::optional<std::reference_wrapper<const Thumb32Matcher<V>>> DecodeThumb32(u32 instruction) {
     static const std::vector<Thumb32Matcher<V>> table = {
 
 #define INST(fn, name, bitstring) Decoder::detail::detail<Thumb32Matcher<V>>::GetMatcher(fn, name, bitstring)
@@ -349,7 +349,7 @@ std::optional<std::reference_wrapper<const Thumb32Matcher<V>>> DecodeThumb32(u32
     const auto matches_instruction = [instruction](const auto& matcher){ return matcher.Matches(instruction); };
 
     auto iter = std::find_if(table.begin(), table.end(), matches_instruction);
-    return iter != table.end() ? std::optional<std::reference_wrapper<const Thumb32Matcher<V>>>(*iter) : std::nullopt;
+    return iter != table.end() ? std::experimental::optional<std::reference_wrapper<const Thumb32Matcher<V>>>(*iter) : std::experimental::nullopt;
 }
 
 } // namespace Dynarmic::A32

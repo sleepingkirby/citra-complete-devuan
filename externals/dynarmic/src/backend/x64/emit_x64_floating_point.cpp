@@ -4,7 +4,7 @@
  * General Public License version 2 or any later version.
  */
 
-#include <optional>
+#include <experimental/optional>
 #include <type_traits>
 #include <utility>
 
@@ -71,7 +71,7 @@ T ChooseOnFsize([[maybe_unused]] T f32, [[maybe_unused]] T f64) {
 
 #define FCODE(NAME) (code.*ChooseOnFsize<fsize>(&Xbyak::CodeGenerator::NAME##s, &Xbyak::CodeGenerator::NAME##d))
 
-std::optional<int> ConvertRoundingModeToX64Immediate(FP::RoundingMode rounding_mode) {
+std::experimental::optional<int> ConvertRoundingModeToX64Immediate(FP::RoundingMode rounding_mode) {
     switch (rounding_mode) {
     case FP::RoundingMode::ToNearest_TieEven:
         return 0b00;
@@ -82,7 +82,7 @@ std::optional<int> ConvertRoundingModeToX64Immediate(FP::RoundingMode rounding_m
     case FP::RoundingMode::TowardsZero:
         return 0b11;
     default:
-        return std::nullopt;
+        return std::experimental::nullopt;
     }
 }
 
@@ -256,7 +256,7 @@ void FPTwoOp(BlockOfCode& code, EmitContext& ctx, IR::Inst* inst, Function fn) {
     if (ctx.AccurateNaN() && !ctx.FPCR().DN()) {
         end = ProcessNaN<fsize>(code, result);
     }
-    if constexpr (std::is_member_function_pointer_v<Function>) {
+    if constexpr (std::is_member_function_pointer<Function>()) {
         (code.*fn)(result, result);
     } else {
         fn(result);
@@ -281,7 +281,7 @@ void FPThreeOp(BlockOfCode& code, EmitContext& ctx, IR::Inst* inst, Function fn)
         const Xbyak::Xmm result = ctx.reg_alloc.UseScratchXmm(args[0]);
         const Xbyak::Xmm operand = ctx.reg_alloc.UseScratchXmm(args[1]);
 
-        if constexpr (std::is_member_function_pointer_v<Function>) {
+        if constexpr (std::is_member_function_pointer<Function>()) {
             (code.*fn)(result, operand);
         } else {
             fn(result, operand);
@@ -303,7 +303,7 @@ void FPThreeOp(BlockOfCode& code, EmitContext& ctx, IR::Inst* inst, Function fn)
     Xbyak::Label end, nan, op_are_nans;
 
     code.movaps(result, op1);
-    if constexpr (std::is_member_function_pointer_v<Function>) {
+    if constexpr (std::is_member_function_pointer<Function>()) {
         (code.*fn)(result, op2);
     } else {
         fn(result, op2);

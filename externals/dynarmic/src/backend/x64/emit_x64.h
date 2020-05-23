@@ -7,7 +7,7 @@
 #pragma once
 
 #include <array>
-#include <optional>
+#include <experimental/optional>
 #include <string>
 #include <type_traits>
 #include <unordered_map>
@@ -64,7 +64,7 @@ public:
     virtual ~EmitX64();
 
     /// Looks up an emitted host block in the cache.
-    std::optional<BlockDescriptor> GetBasicBlock(IR::LocationDescriptor descriptor) const;
+    std::experimental::optional<BlockDescriptor> GetBasicBlock(IR::LocationDescriptor descriptor) const;
 
     /// Empties the entire cache.
     virtual void ClearCache();

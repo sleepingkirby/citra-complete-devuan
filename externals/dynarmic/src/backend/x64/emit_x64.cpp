@@ -45,10 +45,10 @@ EmitX64::EmitX64(BlockOfCode& code) : code(code) {
 
 EmitX64::~EmitX64() = default;
 
-std::optional<EmitX64::BlockDescriptor> EmitX64::GetBasicBlock(IR::LocationDescriptor descriptor) const {
+std::experimental::optional<EmitX64::BlockDescriptor> EmitX64::GetBasicBlock(IR::LocationDescriptor descriptor) const {
     const auto iter = block_descriptors.find(descriptor);
     if (iter == block_descriptors.end()) {
-        return std::nullopt;
+        return std::experimental::nullopt;
     }
     return iter->second;
 }
@@ -314,7 +314,7 @@ EmitX64::BlockDescriptor EmitX64::RegisterBlock(const IR::LocationDescriptor& de
 void EmitX64::EmitTerminal(IR::Terminal terminal, IR::LocationDescriptor initial_location) {
     Common::VisitVariant<void>(terminal, [this, &initial_location](auto x) {
         using T = std::decay_t<decltype(x)>;
-        if constexpr (!std::is_same_v<T, IR::Term::Invalid>) {
+        if constexpr (!std::is_same<T, IR::Term::Invalid>()) {
             this->EmitTerminalImpl(x, initial_location);
         } else {
             ASSERT_MSG(false, "Invalid terminal");

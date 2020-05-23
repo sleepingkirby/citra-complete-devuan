@@ -744,7 +744,7 @@ static void EmitMaskedShift32(BlockOfCode& code, EmitContext& ctx, IR::Inst* ins
         return;
     }
 
-    if constexpr (!std::is_same_v<BMI2FT, std::nullptr_t>) {
+    if constexpr (!std::is_same<BMI2FT, std::nullptr_t>()) {
         if (code.DoesCpuSupport(Xbyak::util::Cpu::tBMI2)) {
             const Xbyak::Reg32 result = ctx.reg_alloc.ScratchGpr().cvt32();
             const Xbyak::Reg32 operand = ctx.reg_alloc.UseGpr(operand_arg).cvt32();
@@ -781,7 +781,7 @@ static void EmitMaskedShift64(BlockOfCode& code, EmitContext& ctx, IR::Inst* ins
         return;
     }
 
-    if constexpr (!std::is_same_v<BMI2FT, std::nullptr_t>) {
+    if constexpr (!std::is_same<BMI2FT, std::nullptr_t>()) {
         if (code.DoesCpuSupport(Xbyak::util::Cpu::tBMI2)) {
             const Xbyak::Reg64 result = ctx.reg_alloc.ScratchGpr();
             const Xbyak::Reg64 operand = ctx.reg_alloc.UseGpr(operand_arg);
